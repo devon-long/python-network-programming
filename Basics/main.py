@@ -11,6 +11,10 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    myString = "Cisco Router"
+    print_hi(myString)
+    newString = myString.replace(" ", "")
+    print_hi(myString)
+    print_hi(newString)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
