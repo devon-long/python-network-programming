@@ -1,7 +1,0 @@
-# Lists
-
-# Sets
-
-# Tuples
-
-# Dictionaries
