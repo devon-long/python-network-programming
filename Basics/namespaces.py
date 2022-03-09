@@ -23,3 +23,4 @@ def new_var_func():
     print(my_global_var)
 
 new_var_func()
+
