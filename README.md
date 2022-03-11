@@ -1,7 +1,6 @@
 # Python Network Programming
 This repository contains lab work completed for the [Python Network Programming Masterclass](https://www.udemy.com/course/python-programming-for-real-life-networking-use/).
 
-# Table of Contents
 ### 1. Lab 0 - [Basics](./0-Basics/)
 
 Python language crash course. Data types, conditionals, OOP, etc.
