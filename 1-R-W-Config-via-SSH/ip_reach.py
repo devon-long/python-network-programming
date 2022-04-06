@@ -7,7 +7,7 @@ def ip_reach(list):
         ip = ip.rstrip("\n")
 
         # send 2 packets to ip and supress errors and output
-        ping_response = subprocess.call('ping %s \n 2' % (ip), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        ping_response = subprocess.call('ping %s -n 2' % (ip), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
         if ping_response == 0:
             print("\n* {} is reachable :)\n".format(ip))
