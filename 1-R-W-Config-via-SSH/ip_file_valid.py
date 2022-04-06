@@ -2,6 +2,8 @@ import os.path
 import sys
 
 
+# Checks wether file provided by the user exists in local system
+# Reads file, checks if IPs in file exist and extracts IPs
 def ip_file_valid():
 
     # Prompt user for a file

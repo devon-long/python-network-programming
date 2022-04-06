@@ -1,0 +1,1 @@
+# Checks if IP address is reachable with a ping
