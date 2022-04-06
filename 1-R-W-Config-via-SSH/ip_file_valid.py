@@ -18,9 +18,10 @@ def ip_file_valid():
     
     # Read contents of file and store in list
     ip_file_reader = open(ip_file, 'r')
-    ip_file_reader.seek(0)
+    ip_file_reader.seek(0) # start from beginning of file
     ip_list = ip_file_reader.readlines()
     ip_file_reader.close()
 
     return ip_list
 
+#ip_file_valid()
